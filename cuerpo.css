@@ -1,0 +1,30 @@
+body {
+    background-color: #31304D;
+    color: #F0ECE5;
+}
+
+.TecnologiasTxt {
+    text-align: center;
+    font-size: 200%;
+}
+
+.FrontEndTxt {
+    text-align: center;
+    font-size: 150%;
+}
+
+.Tecnologias {
+    display: inline-block;
+}
+
+.TecnologiasBar {
+    text-align: center;
+}
+
+.Logo:hover {
+    transform: translate(0px,-10px);
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,54 @@
+main {
+    border: solid;
+    border-color: #595876;
+    background-color: #161A30;
+    margin: 1%;
+    padding: 0.5%;
+}
+
+section {
+    border: solid;
+    border-color: #595876;
+    background-color: #161A30;
+    margin: 0.5%;
+    color: white;
+    font-family: Consolas;
+}
+
+.MiNombre {
+    font-size: 160%;
+    margin-top: -5%;
+    margin-left: 10%;
+    display: inline-block;
+    text-shadow: 5px 5px 5px #0c0e19;
+
+}
+
+.BienvenidaMsg {
+    margin-left: 4%;
+    display: inline-block;
+    text-shadow: 5px 5px 5px #0c0e19;
+}
+
+.DevTexto {
+    margin-left: 4%;
+    margin-top: -5%;
+    display: inline-block;
+    text-shadow: 5px 5px 5px #0c0e19;
+}
+
+.DevTexto:hover {
+    color: red;
+    transform: scale(130%);
+}
+
+.BienvenidaMsg:hover {
+    color: purple;
+    transform: scale(130%);
+}
+
+.MiNombre:hover {
+    color: cyan;
+    transform: scale(130%);
+}
+

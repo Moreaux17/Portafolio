@@ -1,0 +1,47 @@
+.NavBar {
+    Display: flex;
+    justify-content: flex-end;
+}
+
+.Logo1 {
+    font-family: Consolas;
+    font-size: 120%;
+    padding: 0.5%;
+    margin: 0.3%;
+    margin-inline-end: auto;
+}
+
+.NavButtom {
+    font-family: Consolas;
+    color: #F0ECE5;
+    padding: 0.5%;
+    margin: 0.5%;
+    display: inline-block;
+    text-decoration: none;
+}
+.NavButtom:Hover {
+    transform: scale(120%);
+}
+
+header {
+    background-color: #161A30;
+    margin: -0.5%;
+}
+
+@media (max-width: 600px) {
+    .NavBar {
+    flex-direction: column;
+    }
+
+    .BienvenidaMsg {
+        display: flex;
+    }
+
+    Section {
+        font-size: 50%;
+    }
+
+    .Logo1 {
+        margin: auto;
+    }
+}
